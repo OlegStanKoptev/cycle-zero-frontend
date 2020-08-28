@@ -1,0 +1,101 @@
+.content {
+    max-width: 400px !important;
+    padding: 0 20px !important;
+}
+
+.poem * {
+    color: lightgray;
+}
+
+.poem .datetime, .poem .foreword, .poem .afterword {
+    margin-bottom: .4rem;
+    letter-spacing: .1rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.poem .foreword, .poem .afterword {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+
+.poem .title {
+    letter-spacing: .3rem;
+    font-weight: 200;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.poem .authors-container {
+    margin-bottom: 20px;
+}
+
+.poem .authors {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-radius: 10px;
+    background: #111111;
+}
+
+.poem .label {
+    display: flex;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    width: calc(25% - 10px);
+    margin: 5px 5px 5px 5px;
+    height: 40px;
+}
+
+.poem .author {
+    display: flex;
+    background: #474747;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    width: calc(25% - 10px);
+    margin: 5px 5px 5px 5px;
+    height: 40px;
+}
+
+.poem .author:hover {
+    text-decoration-line: none;
+    color: inherit;
+    background: #333333;
+}
+
+.poem .text {
+    margin-bottom: 2rem;
+    letter-spacing: .1rem;
+    font-size: larger;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 499px) {
+    .poem .authors {
+        font-size: 3vw;
+    }
+
+    .poem .label, .poem .author {
+        height: 8vw;
+    }
+
+    .poem .datetime, .poem .foreword, .poem .afterword {
+        font-size: 3.5vw;
+    }
+    
+    .poem .title {
+        font-size: 10vw;
+        letter-spacing: 1vw;
+    }
+
+    .poem .text {
+        font-size: 4vw;
+        letter-spacing: .325vw;
+    }
+}

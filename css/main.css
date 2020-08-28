@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 56px;
+    background-color: #1B191E !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding-top: 48px;
+    max-width: 475px !important;
+    flex: 1 0 auto;
+}

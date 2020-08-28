@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/divider.css">
+        <link rel="stylesheet" href="css/poem-link.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/-debug.css">
+
+        <title>Цикл Ноль - Главная</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <a class="navbar-brand text-uppercase text-muted" href="index.html">ПОПОВ</a>
+            <button class="navbar-toggler" type="button" onclick="rotate()" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="navbar-toggler-img" src="source/menu.svg">
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Поиск</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Об авторе</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="error.html">Авторизация</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <main role="main" class="container content">
+
+            <div class="cover text-uppercase">
+                <h1 class="title text-light">Цикл<br>ноль</h1>
+                <p class="subtitle text-muted">Сборник стихов</p>
+                <img class="art" src="source/planet.svg">
+                <img class="arrow" src="source/arrow.svg">
+            </div>
+            <svg class="divider">
+                <line x1="0" y1="0" x2="100%" y2="0" />
+            </svg>
+            <div class="poems">
+                <h2 class="headline text-light">Недавно выложенные:</h2>
+                <a class="poem" href="poem.html">
+                    <p class="datetime">1.1.2020</p>
+                    <h2 class="title text-light">0, 4, 13 - Чтец</h2>
+                    <p class="text">Каждый беглый мнимый чтец,<br>Пробегающий по строкам,<br>Сам собой уже творец,<br>Побудимый книги слогом...</p>
+                </a>
+                <a class="poem" href="poem.html">
+                    <p class="datetime">1.1.2020</p>
+                    <h2 class="title text-light">0, 4, 13 - Чтец</h2>
+                    <p class="text">Каждый беглый мнимый чтец,<br>Пробегающий по строкам,<br>Сам собой уже творец,<br>Побудимый книги слогом...</p>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <p class="text-muted">Дополнительная информация...</p>
+        </footer>
+
+        <script src="js/navbar-img-rotate.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>

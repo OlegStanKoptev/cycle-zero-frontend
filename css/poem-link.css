@@ -1,0 +1,66 @@
+.poem {
+    margin: 0 5% 2rem 5%;
+    display: block;
+    background: #131214;
+    border-radius: 20px;
+    padding: 15px 25px;
+    text-decoration-line: none;
+}
+
+.poem * {
+    color: gray;
+}
+
+.poems .headline {
+    font-weight: 200;
+    margin: 0 5% 2rem 5%;
+    letter-spacing: .1rem;
+    color: lightgray;
+}
+
+.poem:hover {
+    background: #101011;
+    text-decoration-line: none;
+}
+
+.poem .datetime {
+    margin-bottom: .4rem;
+    letter-spacing: .1rem;
+    font-weight: 300;
+}
+
+.poem .title {
+    letter-spacing: .3rem;
+    font-weight: 200;
+}
+
+.poem .text {
+    margin-bottom: .4rem;
+    letter-spacing: 0.1rem;
+    font-size: larger;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 500px) {
+    .poem {
+        padding: 3vw 5vw;
+    }
+
+    .poems .headline {
+        font-size: 6.75vw;
+    }
+
+    .poem .datetime {
+        font-size: 3.5vw;
+    }
+    
+    .poem .title {
+        font-size: 6.75vw;
+        letter-spacing: 1vw;
+    }
+
+    .poem .text {
+        font-size: 4vw;
+        letter-spacing: .325vw;
+    }
+}

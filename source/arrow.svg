@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="20px" viewBox="0 0 36 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-page---Mobile" transform="translate(-170.000000, -681.000000)" fill="#979797" fill-rule="nonzero">
+            <g id="Content" transform="translate(0.000000, 92.000000)">
+                <g id="Header" transform="translate(8.000000, 90.000000)">
+                    <g id="arrow" transform="translate(180.000000, 509.000000) rotate(-270.000000) translate(-180.000000, -509.000000) translate(170.000000, 491.000000)">
+                        <path d="M19.2804272,19.7821851 L4.1942466,35.2611326 C3.23458329,36.2462891 1.67865372,36.2462891 0.719456302,35.2611326 C-0.239818767,34.2768526 -0.239818767,32.6804449 0.719456302,31.6962445 L14.0683971,17.9997411 L0.719844547,4.30371564 C-0.239430523,3.3190372 -0.239430523,1.72278891 0.719844547,0.738508832 C1.67911962,-0.246169611 3.23497153,-0.246169611 4.19463485,0.738508832 L19.2808155,16.2176954 C19.760453,16.7100744 20,17.3547086 20,17.9996614 C20,18.6449329 19.7599871,19.2900451 19.2804272,19.7821851 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

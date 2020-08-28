@@ -1,0 +1,9 @@
+.divider {
+    width: 100%;
+    height: 2px;
+}
+
+.divider line {
+    stroke: darkgray;
+    stroke-width: 2;
+}

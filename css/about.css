@@ -1,0 +1,45 @@
+.top {
+    padding: 0 60px;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "name profile-img"
+        "status profile-img";
+    margin-bottom: 2rem;
+}
+
+.name, .status {
+    font-size: xx-large;
+    font-weight: 200;
+    padding: .1rem 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.name {
+    grid-area: name;
+}
+
+.status {
+    grid-area: status;
+}
+
+.profile-img-container {
+    display: flex;
+    grid-area: profile-img;
+    align-items: center;
+    width: 94px;
+}
+
+.profile-img {
+    height: 94px;
+    width: 94px;
+    border-radius: 24px;
+}
+
+.description {
+    font-weight: 300;
+    font-size: larger;
+    letter-spacing: .1rem;
+}

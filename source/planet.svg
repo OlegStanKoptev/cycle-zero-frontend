@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="430px" height="450px" viewBox="0 0 430 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Planet</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50.1305483%" gradientTransform="translate(0.500000,0.500000),scale(1.000000,0.997396),rotate(90.000000),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#A8586C" offset="0%"></stop>
+            <stop stop-color="#A8586C" offset="54.5579177%"></stop>
+            <stop stop-color="#1B191E" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="72.3202579%" id="linearGradient-2">
+            <stop stop-color="#322635" offset="0%"></stop>
+            <stop stop-color="#1B191E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-8.8817842e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F4F4F4" stop-opacity="0" offset="18.5460658%"></stop>
+            <stop stop-color="#D6D6D6" offset="28.7790579%"></stop>
+            <stop stop-color="#979797" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-4" cx="215.287661" cy="272.661894" rx="44.5" ry="221"></ellipse>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="89" height="442" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <linearGradient x1="-8.8817842e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#373737" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#373737" stop-opacity="0" offset="11.4723046%"></stop>
+            <stop stop-color="#373737" offset="21.2631119%"></stop>
+            <stop stop-color="#373737" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-7" cx="215.287661" cy="272.661894" rx="60" ry="260"></ellipse>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="520" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Planet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <ellipse fill="url(#radialGradient-1)" cx="216.5" cy="196" rx="191.5" ry="192"></ellipse>
+        <ellipse fill="url(#linearGradient-2)" cx="216" cy="272.5" rx="174" ry="174.5"></ellipse>
+        <use id="Oval" stroke="url(#linearGradient-3)" mask="url(#mask-5)" stroke-width="2" stroke-dasharray="6,18" transform="translate(215.287661, 272.661894) rotate(55.000000) translate(-215.287661, -272.661894) " xlink:href="#path-4"></use>
+        <use id="Oval" stroke="url(#linearGradient-6)" mask="url(#mask-8)" stroke-width="2" stroke-dasharray="6,18" transform="translate(215.287661, 272.661894) rotate(55.000000) translate(-215.287661, -272.661894) " xlink:href="#path-7"></use>
+    </g>
+</svg>

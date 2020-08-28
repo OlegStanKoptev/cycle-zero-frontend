@@ -1,0 +1,82 @@
+.cover {
+    height: calc(100vh - 48px);
+    min-height: 700px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.cover .title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 2.4rem;
+    margin-left: 2.4rem;
+}
+
+.cover .subtitle {
+    font-size: .8rem;
+    letter-spacing: .6rem;
+}
+
+.cover .art {
+    width: calc(100vw - 80px);
+    max-width: 400px;
+    margin: -2.2rem auto 0 auto;
+    display: block;
+}
+
+.cover .arrow {
+    width: 8vw;
+    max-width: 2rem;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 475px) {
+    .cover {
+        min-height: 700px;
+    }
+
+    .cover .title {
+        font-size: 14vw;
+        letter-spacing: 10vw;
+        margin-left: 10vw;
+    }
+
+    .cover .subtitle {
+        font-size: 4vw;
+        letter-spacing: 2vw;
+    }
+
+    .cover .art {
+        margin: -10vw auto 0 auto;
+    }
+}
+
+@media screen and (max-height: 725px) and (min-width: 400px) {
+    .cover .arrow {
+        position: relative;
+        display: block;
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cover {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-height: 535px) and (max-width: 400px) {
+    .cover .arrow {
+        position: relative;
+        display: block;
+        margin-top: 45px;
+    }
+}
+
+.divider {
+    margin: 2rem 0 5rem 0;
+}
