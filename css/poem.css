@@ -8,20 +8,16 @@
 }
 
 .poem .date, .poem .foreword, .poem .afterword {
-    margin-bottom: .4rem;
+    margin-bottom: .8rem;
     letter-spacing: .1rem;
     font-weight: 300;
     color: gray;
 }
 
-.poem .date {
-    text-align: right;
-}
-
-.poem .foreword, .poem .afterword {
+.poem .date, .poem .foreword, .poem .afterword {
     width: max-content;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     font-style: italic;
 }
 
