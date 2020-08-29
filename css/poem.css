@@ -7,11 +7,15 @@
     color: lightgray;
 }
 
-.poem .datetime, .poem .foreword, .poem .afterword {
+.poem .date, .poem .foreword, .poem .afterword {
     margin-bottom: .4rem;
     letter-spacing: .1rem;
     font-weight: 300;
     color: gray;
+}
+
+.poem .date {
+    text-align: right;
 }
 
 .poem .foreword, .poem .afterword {
@@ -90,8 +94,8 @@
         height: 8vw;
     }
 
-    .poem .datetime, .poem .foreword, .poem .afterword {
-        font-size: 3.5vw;
+    .poem .date, .poem .foreword, .poem .afterword {
+        font-size: 4.5vw;
     }
     
     .poem .title {
@@ -100,7 +104,7 @@
     }
 
     .poem .text {
-        font-size: 4vw;
+        font-size: 5vw;
         letter-spacing: .325vw;
     }
 }
