@@ -19,7 +19,7 @@
     </head>
     <body>
         <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-            <a class="navbar-brand text-uppercase text-muted" href="../index.html">ПОПОВ</a>
+            <a class="navbar-brand text-uppercase text-muted fas fa-infinity fa-3x" href="../index.html"></a>
             <button class="navbar-toggler" type="button" onclick="rotate()" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <img class="navbar-toggler-img" src="../source/menu.svg">
             </button>
@@ -42,12 +42,27 @@
         </nav>
 
         <main role="main" class="container content">
-            <form class="search-bar">
+            <form class="search-bar" hidden>
                 <input type="text" placeholder="Найти.." name="search">
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
             <div class="poems">
-                <h2 class="headline">Результаты поиска:</h2>
+                <h2 class="headline">Все стихи:</h2>
+                <a class="poem" href="poem.html">
+                    <p class="datetime">1.1.2020</p>
+                    <h2 class="title text-light">0, 4, 13 - Чтец</h2>
+                    <p class="text">Каждый беглый мнимый чтец,<br>Пробегающий по строкам,<br>Сам собой уже творец,<br>Побудимый книги слогом...</p>
+                </a>
+                <a class="poem" href="poem.html">
+                    <p class="datetime">1.1.2020</p>
+                    <h2 class="title text-light">0, 4, 13 - Чтец</h2>
+                    <p class="text">Каждый беглый мнимый чтец,<br>Пробегающий по строкам,<br>Сам собой уже творец,<br>Побудимый книги слогом...</p>
+                </a>
+                <a class="poem" href="poem.html">
+                    <p class="datetime">1.1.2020</p>
+                    <h2 class="title text-light">0, 4, 13 - Чтец</h2>
+                    <p class="text">Каждый беглый мнимый чтец,<br>Пробегающий по строкам,<br>Сам собой уже творец,<br>Побудимый книги слогом...</p>
+                </a>
                 <a class="poem" href="poem.html">
                     <p class="datetime">1.1.2020</p>
                     <h2 class="title text-light">0, 4, 13 - Чтец</h2>
@@ -59,6 +74,13 @@
                     <p class="text">Каждый беглый мнимый чтец,<br>Пробегающий по строкам,<br>Сам собой уже творец,<br>Побудимый книги слогом...</p>
                 </a>
             </div>
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled"><a class="page-link" href="#"><i class="fas fa-chevron-left"></i></a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a></li>
+              </ul>
         </main>
 
         <footer>

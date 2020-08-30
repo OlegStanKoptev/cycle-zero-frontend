@@ -30,3 +30,36 @@ form.search-bar button {
 form.search-bar button:hover {
     opacity: 50%;
 }
+
+.pagination {
+    font-size: 1.4rem;
+}
+
+.page-item a {
+    color: inherit;
+}
+
+.page-item i {
+    display: inline-block;
+}
+
+.page-item * {
+    background: none !important;
+    border: none !important;
+    color: gray !important;
+}
+
+.page-item:hover * {
+    color: #5e5e5e !important;
+}
+
+.page-item.active * {
+    color: white !important;
+    cursor: default;
+    pointer-events: none;
+}
+
+.page-item.disabled * {
+    color: #1B191E !important;
+}
+

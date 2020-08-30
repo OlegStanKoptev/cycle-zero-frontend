@@ -3,7 +3,8 @@
 }
 
 .navbar-brand {
-    letter-spacing: 1rem;
+    letter-spacing: .4rem;
+    font-size: 1.6rem;
 }
 
 .navbar-toggler {
@@ -12,6 +13,7 @@
 }
 
 .navbar-toggler-img {
+    height: 36px;
     -webkit-transition-duration: .3s;
     -moz-transition-duration: .3s;
     -o-transition-duration: .3s;
