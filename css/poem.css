@@ -79,7 +79,7 @@
 @media screen and (max-width: 499px) {
     .content {
         max-width: 400px !important;
-        padding: 0 20px !important;
+        padding: 0 36px !important;
     }
 
     .poem .authors {
@@ -100,7 +100,7 @@
     }
 
     .poem .text {
-        font-size: 5vw;
+        font-size: 4vw;
         letter-spacing: .325vw;
     }
 }

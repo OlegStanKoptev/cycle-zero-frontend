@@ -4,7 +4,6 @@
 
 .navbar-brand {
     letter-spacing: .4rem;
-    font-size: 1.6rem;
 }
 
 .navbar-toggler {
@@ -13,7 +12,7 @@
 }
 
 .navbar-toggler-img {
-    height: 36px;
+    height: 32px;
     -webkit-transition-duration: .3s;
     -moz-transition-duration: .3s;
     -o-transition-duration: .3s;
@@ -26,8 +25,7 @@
 
 @media screen and (max-width: 370px) {
     .navbar-brand {
-        font-size: 5.9vw !important;
-        letter-spacing: 4.75vw;
+        font-size: 12vw !important;
     }
 
     .navbar-toggler-img {
