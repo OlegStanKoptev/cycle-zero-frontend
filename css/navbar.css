@@ -4,6 +4,7 @@
 
 .navbar-brand {
     letter-spacing: .4rem;
+    
 }
 
 .navbar-toggler {
@@ -24,10 +25,6 @@
 }
 
 @media screen and (max-width: 370px) {
-    .navbar-brand {
-        font-size: 12vw !important;
-    }
-
     .navbar-toggler-img {
         width: 6.75vw;
     }
